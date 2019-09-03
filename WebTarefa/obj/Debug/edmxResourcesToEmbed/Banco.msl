@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TarefaDBModelStoreContainer" CdmEntityContainer="TarefaDBEntities">
+    <EntitySetMapping Name="TB_TAREFA">
+      <EntityTypeMapping TypeName="TarefaDBModel.TB_TAREFA">
+        <MappingFragment StoreEntitySet="TB_TAREFA">
+          <ScalarProperty Name="DtLimEntrega" ColumnName="DtLimEntrega" />
+          <ScalarProperty Name="DtEntrega" ColumnName="DtEntrega" />
+          <ScalarProperty Name="DtAtividade" ColumnName="DtAtividade" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
